@@ -1,0 +1,49 @@
+@import "../../node_modules/antd/lib/style/index.less";
+@import "../../node_modules/antd/lib/style/components.less";
+
+@border-radius-base     : 1px;
+@border-radius-sm       : 1px;
+// ICONFONT
+@iconfont-css-prefix    : anticon;
+@icon-url               : "/static/fonts/font_1461567603_8950496";
+
+.ant-checkbox-inner{
+    border-radius:0px;
+}
+
+.ant-menu-inline, .ant-menu-vertical {
+    border-right: 0px
+}
+
+.ant-table th, .ant-table td {
+    padding: 8px 8px;
+}
+
+.ant-table th {
+    font-weight: lighter;
+}
+
+.@{form-prefix-cls}-item {
+     > label {
+        padding-right: 10px;
+    }
+}
+
+.@{menu-prefix-cls} {
+    &-submenu {
+        > .@{menu-prefix-cls} {
+            border-radius: 0px;
+        }
+    }
+}
+
+.@{collapse-prefix-cls} {
+  border-radius: 0px;
+
+  &-item:last-child {
+    > .@{collapse-prefix-cls}-content {
+      border-radius: 0 0 0px 0px;
+    }
+  }
+}
+

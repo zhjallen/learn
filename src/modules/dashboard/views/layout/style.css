@@ -1,0 +1,14 @@
+.ant-layout-aside {
+  position: relative;
+  min-height: 100%;
+}
+.ant-layout-aside .ant-layout-main {
+  margin-left: 224px;
+}
+.ant-layout-aside .ant-layout-container {
+  margin: 10px;
+}
+.ant-layout-aside .ant-layout-container .ant-layout-content {
+  background: #fff;
+  padding: 0px;
+}
